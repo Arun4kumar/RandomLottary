@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Number Generator</h1>
+    </div>
+    <div>
+      <input min="1" max="100" value="1" type="number" id="input" />
+      <button type="button" id="button">Guess</button>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Your Guess</th>
+          <th scope="col">Bot Guess</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody id="table"></tbody>
+    </table>
+    <script src="./app.js"></script>
+  </body>
+</html>
